@@ -24,9 +24,6 @@ a {
   letter-spacing: 2.5px;
 }
 
-a:hover {
-  background-color: #b2acba;
-}
 
 .layout {
   max-width: 1600px;
