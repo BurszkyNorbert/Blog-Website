@@ -18,12 +18,14 @@ header {
 
 a {
   text-decoration: none;
-  cursor: pointer;
   font-size: 10px;
   font-weight: 700;
   font-style: normal;
   letter-spacing: 2.5px;
-  
+}
+
+a:hover {
+  background-color: #b2acba;
 }
 
 .layout {
@@ -277,6 +279,118 @@ p {
 
 
 
+
+/* === Card === */
+
+.layout-card {
+  float: right;
+}
+
+.layout-card-2 {
+  width: calc(33.3% - 1.071rem);
+}
+
+
+.container-card {
+  width: 350px;
+  height: 600px;
+  margin-top: 25px;
+  margin-left: 20px;
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.card-top {
+  height: 60px;
+  margin-bottom: 1px solid;
+  border-radius: 16px 16px 0 0;
+  background-color: #6200ea;
+}
+
+.card-top-text {
+  padding: 25px 0 0;
+  display: inline-block;
+  
+}
+
+.card-box {
+  width: 350px;
+  height: 160px;
+  
+}
+
+.card-image {
+  width: 120px;
+  height: 120px;
+  margin: 20px 0 0 0;
+  margin-left: 20px;
+  object-fit: cover;
+  border-radius: 16px;
+  float: left;
+}
+
+
+.card-link {
+  padding: 20px;
+  height: 60px;
+  display: inline-block;
+}
+
+.card-button {
+  border-bottom: 1px;
+  border-color: #b2acba;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #b2acba;
+}
+
+.card-button:hover {
+  color: #211138;
+}
+
+.h5-3 {
+  padding: 20px 20px;
+  color: #6200ea;
+  margin-bottom: 0;
+}
+
+.text-3 {
+  padding: 0 20px 0;
+  text-align: left;
+  font-size: 12px;
+  color: #211138;
+}
+
+
+
+/* === Card-list === */
+
+li  {
+  list-style-type: none;
+  text-align: left;
+  text-transform: uppercase;
+  color: black;
+}
+
+.list-text {
+  padding: 1.214rem 2.143rem 1.286rem 2.143rem;
+  border-bottom: 1px solid;
+  border-color: #f4f3f5;
+}
+
+
+.categories-list {
+  color: #211138;
+}
+
+.list-text:hover {
+  background-color: #b2acba;
+}
+
+
+
+
+
 /* === Footer === */
 
 .footer {
@@ -305,6 +419,10 @@ p {
 .span-text {
   color: #6200ea;
 }
+
+
+
+  
 
 
 
