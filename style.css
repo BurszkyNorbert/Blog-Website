@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #f4f3f5;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.basic-flex, a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+/* === Header === */
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6200ea;
+}
+
+.logo {
+    margin-right: 710px;
+}
+
+.sub-button {
+    width: 160px;
+    height: 40px;
+    margin-left: 245px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    border-radius: 24px;
+    background-color: #fff;
+    color: #6200ea;
+}
+
+
+/* === Header-Navigation === */
+
+.bottom-nav {
+    width: 100%;
+    background-color: #fff;
+    height: 80px;
+    padding: 0 285px;
+}
+
+.wrapper .bottom-nav ul {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #211138;
+}
+
+.navigation-link:hover {
+    padding-bottom: 28px;
+    padding-top: 2.1rem;
+    border-bottom: 4px solid #6200ea;
+    color: #6200ea;
+    cursor: pointer;
+}
+
+
+/* === Post === */
+
+.layout {
+    padding: 40px 245px;
+}
+
+.post {
+    padding: 60px;
+    background-image: url("assets/roberto-nickson-5ui0tfMC5ts-unsplash.jpg");
+    background-size: cover;
+    border-radius: 15px;
+    width: 730px;
+    height: 350px;
+}
+
+.title, .span, .text, a, .text-post {
+    color: #fff;
+}
+
+h6 {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    margin-bottom: 15px;
+    color: #b2acba;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #211138;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.white-button {
+    width: 160px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.button {
+    width: 160px;
+    height: 40px;
+    border: 2px solid #6200ea;
+    border-radius: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #6200ea;
+}
+
+/* === Post-card ===*/
+
+.post-cards {
+    display: flex;
+    padding: 30px 0;
+}
+
+.post-card {
+    display: flex;
+    margin-right: 30px;
+    width: 350px;
+    height: 160px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.post-image {
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-title {
+    margin-top: 20px;
+    color: #6200ea;
+}
+
+.post-text {
+    padding: 0 20px 50px 0;
+    line-height: 20px;
+    font-size: 14px;
+    color: #211138;
+}
+
+
+/* === Post-White === */
+
+.post-white {
+    padding: 60px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 730px;
+    height: 350px;
+}
+
+.post-white-border {
+    border-radius: 0 0 15px 15px;
+}
+
+
+/* === Post-Backgroung */
+
+.post-background {
+    margin-top: 30px;
+    background-image: url('assets/sean-o-KMn4VEeEPR8-unsplash.jpg');
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    width: 730px;
+    height: 350px;
+}
+
+
+/* === Right-Card === */
+
+main {
+    float: right;
+    padding: 40px 0; 
+    margin-right: 245px;   
+}
+
+.right-card {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 60px;
+    border-radius: 15px 15px 0 0;
+    background-color: #6200ea;
+}
+
+.right-text {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    color: #fff;
+}
+
+.right-box {
+    display: flex;
+    width: 350px;
+    height: 160px;
+    background-color: #fff;
+}
+
+.lower {
+    margin-bottom: 30px;
+    color: #b2acba;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    border-top: 1px solid #f4f3f5;
+    border-radius: 0 0 15px 15px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.row-list {
+    background-color: #fff;
+}
+
+.row-navigation {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    height: 50px;
+    border-bottom: 1px solid #f4f3f5;
+}
+
+
+/* === Footer === */
+
+footer {
+    width: 1600px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 40px 0 40px 0;
+    background-color: #211138;
+  }
+  
+  .footer-box {
+    text-align: center;
+  }
+  
+  .footer-text {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #b2acba;
+  }
+  
+  .span-text {
+    color: #6200ea;
+  }
+
